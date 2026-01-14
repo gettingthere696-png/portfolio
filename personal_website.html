@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Krishna Sarangarajan | Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #0b0f1a;
+      color: #eaeaf0;
+      line-height: 1.6;
+    }
+    a { color: #5eead4; text-decoration: none; }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    header h1 {
+      font-size: 3.5rem;
+      margin-bottom: 10px;
+    }
+    header h1 span { color: #5eead4; }
+    header p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto 25px;
+      opacity: 0.9;
+    }
+    .hero-btns a {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 28px;
+      border-radius: 30px;
+      border: 2px solid #5eead4;
+      font-weight: 600;
+      transition: 0.3s;
+    }
+    .hero-btns a.primary {
+      background: #5eead4;
+      color: #000;
+    }
+    .hero-btns a:hover { transform: translateY(-3px); }
+
+    section {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 80px 25px;
+    }
+    section h2 {
+      font-size: 2.3rem;
+      margin-bottom: 25px;
+      border-left: 5px solid #5eead4;
+      padding-left: 15px;
+    }
+
+    .about p {
+      max-width: 800px;
+      font-size: 1.1rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #131a2e;
+      padding: 25px;
+      border-radius: 18px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+      transition: transform 0.3s;
+    }
+    .card:hover { transform: translateY(-8px); }
+    .card h3 {
+      margin-bottom: 10px;
+      color: #5eead4;
+    }
+
+    .timeline {
+      border-left: 3px solid #5eead4;
+      padding-left: 25px;
+    }
+    .timeline-item {
+      margin-bottom: 30px;
+    }
+    .timeline-item h3 { margin-bottom: 5px; }
+    .timeline-item span {
+      font-size: 0.9rem;
+      opacity: 0.7;
+    }
+
+    footer {
+      text-align: center;
+      padding: 40px 20px;
+      background: #070a12;
+      font-size: 0.9rem;
+      opacity: 0.8;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div>
+      <h1>Hi, I'm <span>Krishna Sarangarajan</span></h1>
+      <p>
+        A dedicated science student with a strong academic focus, committed to building a well-rounded profile through
+        medicine, creativity, and sports. I am preparing to pursue MBBS abroad with the aim of contributing meaningfully
+        to healthcare through discipline, consistency, and lifelong learning.
+      </p>
+      <div class="hero-btns">
+        <a href="#about" class="primary">About Me</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>
+      I am a motivated student from India with a clear academic goal of pursuing MBBS from a reputed international university.
+      My interest in medicine is driven by curiosity about human biology, a desire to serve society, and a strong commitment
+      to disciplined learning. Alongside academics, I have actively engaged in art and sports, which have helped me develop
+      creativity, focus, teamwork, and perseverance — qualities essential for a future medical professional. Beyond structured academic goals, I genuinely enjoy learning as a process and maintaining balance through creative and recreational activities that keep me motivated and grounded.
+    </p>
+  </section>
+
+  <!-- SKILLS / INTERESTS -->
+  <section>
+    <h2>Skills, Interests & Achievements</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Arts & Visual Expression</h3>
+        <p>Exhibited original artwork at the <strong>renowned Cholamandala Artists’ Village</strong>, reflecting creative engagement, cultural involvement, and a strong visual sensibility. I also maintain a keen interest in <strong>photography</strong>, using it as a medium to observe detail, composition, and storytelling.</p>
+      </div>
+      <div class="card">
+        <h3>Sports & Games</h3>
+        <p>Represented my district as a <strong>district-level badminton player</strong>, demonstrating discipline, resilience, and competitive spirit. Achieved <strong>multiple first-place finishes in carrom</strong> at the school level, reflecting consistency, focus, and strategic thinking.</p>
+      </div>
+      <div class="card">
+        <h3>Academic Background</h3>
+        <p>Recognized as a <strong>top-performing student</strong> in my grade on multiple occasions for academic excellence. I also hold an <strong>undergraduate degree in Hindi</strong>, reflecting linguistic proficiency, cultural understanding, and academic versatility.</p>
+      </div>
+      <div class="card">
+        <h3>Exploration & Travel</h3>
+        <p>I enjoy exploring new places and cultures and aspire to travel widely, as it broadens perspective, adaptability, and global awareness—qualities valuable in both academic and professional settings.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- EDUCATION / JOURNEY -->
+  <section>
+    <h2>My Journey</h2>
+    <div class="timeline">
+      <div class="timeline-item">
+        <h3>Higher Secondary Education (PCB)</h3>
+        <span>Class 11–12</span>
+        <p>Focused on Physics, Chemistry, and Biology with the aim of entering medical school.</p>
+      </div>
+      <div class="timeline-item">
+        <h3>MBBS Aspirant</h3>
+        <span>Present</span>
+        <p>Preparing academically and exploring safe, NMC-approved international universities.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach out to me for academic discussions, collaborations, or guidance.</p>
+    <p><strong>Email:</strong> ishusarang@gmail.com</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Krishna Sarangarajan · Personal Portfolio</p>
+  </footer>
+
+</body>
+</html>
